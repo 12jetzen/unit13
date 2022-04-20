@@ -1,4 +1,12 @@
+html {
+    background:url(images/table.jpeg);
+}
+
+
+
+
 #card > img{
     height: 300px;
     width: 200px;
 }
+
