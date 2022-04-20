@@ -7,6 +7,6 @@ function getCard() {
     document.getElementById("card").innerHTML = "<image src=images/" + r + "C.jpg>"
     var suitArray = ["C", "D", "H", "S"]
     var randomSuit = Math.floor(Math.random() * 4) // 0 to 3
-    document.getElementById("card").innerHTML = "<image src=images/" + r + suitArray[randomSuit] + ".jpg"
+    document.getElementById("card").innerHTML = "<image src=images/" + r + suitArray[randomSuit] + ".jpg")
 }
    
