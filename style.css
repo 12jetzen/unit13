@@ -9,3 +9,8 @@ html {
 }
 
 
+.more {
+    background-color: teal;
+    margin-right: 85%;
+    padding: 40px;
+}
