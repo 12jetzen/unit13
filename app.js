@@ -10,6 +10,10 @@ function run() {
     getCard()
 }
 
+function compturn() {
+    computer
+}
+
 function getCard() {
     var r = Math.floor(Math.random() * 10) +1
     // document.getElementById("card").innerHTML = "<image src=images/" + r + "C.jpg>"
@@ -18,9 +22,14 @@ function getCard() {
     document.getElementById("card").insertAdjacentHTML("beforeend", "<img src=images/" + r + suitArray[randomSuit] + ".jpg>")
 }
 
+// if(document.getElementById('STOP').clicked == true) {
+//     alert("computer")
+
+// }
 
 
-function computer() {
+function computurn() {
+    alert("computer")
     var r = Math.floor(Math.random() * 10) +1
     // document.getElementById("card").innerHTML = "<image src=images/" + r + "C.jpg>"
     var suitArray = ["C", "D", "H", "S"]
