@@ -11,15 +11,24 @@ html {
 
 .more {
     background-color: teal;
-    margin-right: 87%;
+    margin-right: 89.5%;
     padding: 40px;
     font-size: 30px;
 }
-
 
 .no-more {
-    margin-right: 87%;
+    background-color: rgb(160, 0, 0);
+    margin-right: 89.5%;
     padding: 40px;
     font-size: 30px;
-    background-color:rgb(206, 24, 24)
 }
+
+.refresh {
+    background-color: rgb(216, 219, 10);
+    margin-right: 89.5%;
+    padding: 40px;
+    font-size: 30px;
+}
+
+
+
