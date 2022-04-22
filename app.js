@@ -1,3 +1,9 @@
+getCard = a
+
+stop = b
+
+restart = c
+
 function run() {
     getCard()
 }
@@ -9,6 +15,5 @@ function getCard() {
     var randomSuit = Math.floor(Math.random() * 4) // 0 to 3
     document.getElementById("card").insertAdjacentHTML("beforeend", "<img src=images/" + r + suitArray[randomSuit] + ".jpg>")
 }
-function getCard() {
-    var r = Math.floor
-}
+
+
